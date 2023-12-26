@@ -1,6 +1,7 @@
 import Foundation
 import RxSwift
 import RxCocoa
+import RxRelay
 
 /// Typealias for compatibility with UIButton's rx.action property.
 public typealias CocoaAction = Action<Void, Void>
